@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli("localhost","leopardt_allen","leopardallen","leopardt_gajyatra");
+require('db.php');
 // Check connection
 if (mysqli_connect_errno())
   {

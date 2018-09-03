@@ -1,7 +1,6 @@
 
 <?php 
-$conn = new mysqli("localhost","leopardt_allen","leopardallen","leopardt_gajyatra");
-
+require('db.php');
 
 	$email=$_GET['email'];
 	$code=$_GET['code'];

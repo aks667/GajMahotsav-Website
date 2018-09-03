@@ -1,6 +1,5 @@
 <?php
-$conn = new mysqli("localhost","leopardt_allen","leopardallen","leopardt_gajyatra");
-
+require('db.php');
 
 $sql = "SELECT count(*) as tot from magreg where confirm='verified'";
     $rs = mysqli_query($conn,$sql);
