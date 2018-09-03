@@ -70,7 +70,7 @@
     </head>
     
     <?php
-        $conn = new mysqli("localhost","leopardt_allen","leopardallen","leopardt_gajyatra");
+        $conn = new mysqli("server","user","password","db");
         date_default_timezone_set("Asia/Kolkata");
     ?>
 
